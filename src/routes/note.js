@@ -57,21 +57,6 @@ router.post('/', async (req, res) => {
   });
   // Upon succ, run the following lines to validate the response object and respond to client
   console.log(newNote);
-  // --- begin of succ flow ---
-
-  // --- end of succ flow ---
-
-
-
-  // Upon fail, run the following lines to respond with an error
-
-  // --- begin of fail flow ---
-  // res.status(500).send('Fail to insert')
-  // --- end of fail flow ---
-
-
-
-
 
 })
 /* -------------------------------------------------------------------------- */
@@ -133,20 +118,6 @@ router.put('/', async (req, res) => {
 
   });
 
-  // Upon succ, run the following lines to validate the response object and respond to client
-
-  // --- begin of succ flow ---
-
-  // --- end of succ flow ---
-
-
-
-  // Upon fail, run the following lines to respond with an error
-
-  // --- begin of fail flow ---
-  // return res.status(500).send('Fail to update')
-  // --- end of fail flow ---
-
 
 })
 /* -------------------------------------------------------------------------- */
@@ -183,21 +154,6 @@ router.delete('/', async (req, res) => {
     return res.send()
 
   });
-
-
-    // Upon succ, run the following lines to validate the response object and respond to client
-
-    // --- begin of succ flow ---
-   
-    // --- end of succ flow ---
-
-
-
-    // Upon fail, run the following lines to respond with an error
-
-    // --- begin of fail flow ---
-    // res.status(500).send('Fail to delete')
-    // --- end of fail flow ---
 
 })
 /* -------------------------------------------------------------------------- */
